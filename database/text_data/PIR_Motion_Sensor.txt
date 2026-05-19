@@ -1,0 +1,24 @@
+PIR (Passive Infrared) Motion Sensor
+
+Description: A passive infrared sensor that detects motion by sensing changes in infrared radiation emitted by humans and animals. Used for security and automation.
+
+Specifications:
+- Operating voltage: 4.5V to 20V
+- Detection range: Up to 7 meters
+- Detection angle: 110°
+- Output: Digital (HIGH/LOW)
+- Delay time: Adjustable 5-200 seconds
+
+Applications:
+- Security systems
+- Automatic lighting
+- Motion-activated cameras
+- Home automation
+- Energy saving systems
+
+Wiring:
+- VCC: 5V to 12V (check module)
+- GND: Ground
+- OUT: Digital output to microcontroller
+
+Adjustments: Two potentiometers control sensitivity and delay time. Requires 1-2 minutes to stabilize after power-on.

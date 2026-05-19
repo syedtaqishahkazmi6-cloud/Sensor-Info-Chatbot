@@ -1,0 +1,24 @@
+Line Tracking Sensor Array
+
+Description: An infrared line tracking sensor for detecting lines and paths. Typically consists of multiple IR sensors for line-following robots.
+
+Specifications:
+- Operating voltage: 3.3V to 5V
+- Number of sensors: 3 to 8 (varies)
+- Output: Digital per sensor
+- Detection range: 1-2cm
+- Works on: White lines on dark surface or vice versa
+
+Applications:
+- Line-following robots
+- Path tracking
+- Autonomous vehicles
+- Industrial automation
+- Maze solving robots
+
+Wiring:
+- VCC: 3.3V or 5V
+- GND: Ground
+- OUT1, OUT2, OUT3...: Digital outputs for each sensor
+
+Notes: Each sensor provides independent output. Adjust potentiometers for sensitivity. Works best with high-contrast lines.

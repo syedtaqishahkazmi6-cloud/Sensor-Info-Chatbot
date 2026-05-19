@@ -1,0 +1,24 @@
+Shock/Vibration Sensor
+
+Description: A spring-based vibration sensor that detects impacts and vibrations. The spring makes contact with the center terminal when shaken or impacted.
+
+Specifications:
+- Operating voltage: 3.3V to 5V
+- Output: Digital (HIGH/LOW)
+- Sensitivity: Adjustable via spring tension
+- Response time: < 10ms
+- Contact resistance: < 100Ω
+
+Applications:
+- Impact detection
+- Anti-theft alarms
+- Vibration monitoring
+- Game controllers
+- Security systems
+
+Wiring:
+- VCC: 3.3V or 5V
+- GND: Ground
+- OUT: Digital output to microcontroller
+
+Notes: Spring vibrates on impact, making momentary contact. Can detect taps, shakes, and vibrations.

@@ -1,0 +1,24 @@
+Light Cup (Mercury Tilt) Sensor
+
+Description: A tilt sensor using a small mercury ball that makes electrical contact when tilted. Similar to ball switch but with different form factor.
+
+Specifications:
+- Operating voltage: 3.3V to 5V
+- Output: Digital (HIGH/LOW)
+- Tilt angle: ~30° from vertical
+- Contact resistance: < 100Ω
+- Max current: 100mA
+
+Applications:
+- Orientation detection
+- Anti-theft devices
+- Game controllers
+- Safety switches
+- Robotics
+
+Wiring:
+- VCC: 3.3V or 5V
+- GND: Ground
+- OUT: Digital output to microcontroller
+
+Notes: Contains mercury - handle with care and dispose properly. Ball switch alternatives are safer.

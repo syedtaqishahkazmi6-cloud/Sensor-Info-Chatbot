@@ -1,0 +1,24 @@
+Smoke Sensor (MQ-2)
+
+Description: A gas sensor sensitive to smoke, flammable gases, and LPG. Uses a heated metal oxide semiconductor that changes resistance based on gas concentration.
+
+Specifications:
+- Operating voltage: 5V (heater requires 5V)
+- Sensitivity: Smoke, LPG, Propane, Methane
+- Output: Analog voltage
+- Response time: < 10 seconds
+- Heater power: ~800mW
+
+Applications:
+- Smoke detectors
+- Gas leak detection
+- Fire alarm systems
+- Industrial safety
+- Air quality monitoring
+
+Wiring:
+- VCC: 5V (required for heater)
+- GND: Ground
+- OUT: Analog output to ADC pin
+
+Notes: Requires 24-48 hour pre-heating for accurate readings. Output voltage increases with gas concentration.

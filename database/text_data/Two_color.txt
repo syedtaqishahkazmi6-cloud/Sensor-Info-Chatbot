@@ -1,0 +1,25 @@
+Two-Color LED Module
+
+Description: A bicolor LED that can display two different colors (typically red and green) or a blend of both. Used for status indication and visual feedback.
+
+Specifications:
+- Operating voltage: 3.3V to 5V
+- LED type: 5mm bicolor LED
+- Colors: Red and Green
+- Control: 2 digital pins
+- Current: ~10mA per color
+
+Applications:
+- Status indicators
+- Direction indicators
+- Warning lights
+- User feedback
+- Debug indicators
+
+Wiring:
+- VCC: 3.3V or 5V
+- GND: Ground
+- R: Red control pin
+- G: Green control pin
+
+Notes: Both colors ON creates yellow/orange. Can use PWM for brightness control and color mixing.

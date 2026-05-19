@@ -1,0 +1,24 @@
+Digital Temperature Sensor (DHT11/DHT22)
+
+Description: A digital temperature and humidity sensor that provides calibrated digital output. Uses a single-wire digital interface for easy integration with microcontrollers.
+
+Specifications:
+- Temperature range: 0°C to 50°C (DHT11), -40°C to 80°C (DHT22)
+- Humidity range: 20% to 90% RH
+- Accuracy: ±2°C temperature, ±5% humidity
+- Sampling rate: Once every 2 seconds
+- Operating voltage: 3.3V to 5V
+
+Applications:
+- Weather stations
+- Home automation
+- Greenhouse monitoring
+- HVAC systems
+- Data logging
+
+Wiring:
+- VCC: 3.3V or 5V
+- GND: Ground
+- DATA: Digital data pin (requires 10K pull-up resistor)
+
+Notes: Cannot be read faster than once every 2 seconds. DHT22 offers better accuracy and range than DHT11.

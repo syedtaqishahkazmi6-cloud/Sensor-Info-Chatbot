@@ -1,0 +1,24 @@
+Analog Temperature Sensor (LM35/TMP36)
+
+Description: An analog temperature sensor that outputs a voltage linearly proportional to the Celsius temperature. Easy to use with microcontrollers' analog-to-digital converters.
+
+Specifications:
+- Temperature range: -40°C to +110°C (varies by model)
+- Operating voltage: 2.7V to 5.5V
+- Output: 10mV per degree Celsius (LM35)
+- Accuracy: ±0.5°C at room temperature
+- Response time: < 2 seconds in still air
+
+Applications:
+- Temperature monitoring
+- Environmental control systems
+- Battery thermal management
+- Weather stations
+- HVAC systems
+
+Wiring:
+- VCC: 3.3V or 5V
+- GND: Ground
+- OUT: Analog output to ADC pin
+
+Formula: Temperature (°C) = (Vout × 1000) / 10 for LM35

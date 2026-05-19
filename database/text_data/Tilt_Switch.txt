@@ -1,0 +1,24 @@
+Tilt Switch Sensor
+
+Description: A tilt sensor that detects orientation changes. Uses a conductive ball or mercury that makes contact when tilted beyond a specific angle.
+
+Specifications:
+- Operating voltage: 3.3V to 5V
+- Output: Digital (HIGH/LOW)
+- Tilt angle: 30° to 45° from horizontal
+- Contact resistance: < 100Ω
+- Max current: 100mA
+
+Applications:
+- Orientation detection
+- Anti-theft alarms
+- Safety devices
+- Game controllers
+- Robotics (balance)
+
+Wiring:
+- VCC: 3.3V or 5V
+- GND: Ground
+- OUT: Digital output to microcontroller
+
+Notes: Ball switch types are safer than mercury versions. Detects tilt in one direction only.

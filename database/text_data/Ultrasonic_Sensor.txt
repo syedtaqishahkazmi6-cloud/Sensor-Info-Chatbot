@@ -1,0 +1,27 @@
+Ultrasonic Distance Sensor (HC-SR04)
+
+Description: An ultrasonic distance sensor that measures distance using sound waves. Emits ultrasonic pulses and measures the time for echo to return.
+
+Specifications:
+- Operating voltage: 5V
+- Measurement range: 2cm to 400cm
+- Accuracy: ±3mm
+- Ultrasonic frequency: 40kHz
+- Trigger pulse: 10μs minimum
+
+Applications:
+- Distance measurement
+- Obstacle avoidance
+- Level sensing
+- Parking sensors
+- Robot navigation
+
+Wiring:
+- VCC: 5V
+- GND: Ground
+- TRIG: Trigger input (digital)
+- ECHO: Echo output (digital)
+
+Formula: Distance (cm) = (Echo pulse time in μs) / 58
+
+Notes: Requires 5V power. ECHO pin may need voltage divider for 3.3V microcontrollers.

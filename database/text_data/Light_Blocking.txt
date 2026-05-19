@@ -1,0 +1,24 @@
+Light Blocking/Photoelectric Sensor
+
+Description: A photoelectric sensor that detects objects blocking the light path between an emitter and detector. Used for object detection and counting.
+
+Specifications:
+- Operating voltage: 3.3V to 5V
+- Output: Digital (HIGH/LOW)
+- Detection range: < 10mm (slot width)
+- Response time: < 5ms
+- Slot width: Typically 5-10mm
+
+Applications:
+- Object detection
+- Speed measurement
+- Position sensing
+- Counter systems
+- Printer paper detection
+
+Wiring:
+- VCC: 3.3V or 5V
+- GND: Ground
+- OUT: Digital output to microcontroller
+
+Notes: Output changes when object blocks the light slot. LED indicator shows detection state.

@@ -1,0 +1,26 @@
+Rotary Encoder Module
+
+Description: A rotary encoder that converts rotational position into digital signals. Provides both absolute position (incremental) and direction detection.
+
+Specifications:
+- Operating voltage: 3.3V to 5V
+- Output: 2 digital channels (A, B) + button
+- Pulses per revolution: 20 (typical)
+- Detents: 20 positions per revolution
+- Button: Momentary push switch
+
+Applications:
+- User interface control
+- Volume control
+- Motor position feedback
+- Menu navigation
+- Measurement instruments
+
+Wiring:
+- VCC: 3.3V or 5V
+- GND: Ground
+- CLK: Channel A (digital)
+- DT: Channel B (digital)
+- SW: Button (digital)
+
+Notes: Quadrature encoding provides direction detection. Phase relationship between A and B determines rotation direction.

@@ -1,0 +1,24 @@
+Laser Emitter Module
+
+Description: A laser diode module that emits a focused red laser beam. Used for alignment, measurement, and optical applications.
+
+Specifications:
+- Operating voltage: 3.3V to 5V
+- Wavelength: 650nm (red)
+- Output power: < 5mW (Class IIIa)
+- Beam diameter: ~3mm
+- Current: ~30mA
+
+Applications:
+- Laser alignment
+- Distance measurement
+- Optical communication
+- Security systems
+- Educational demonstrations
+
+Wiring:
+- VCC: 3.3V or 5V
+- GND: Ground
+- SIGNAL: Digital control (optional on some modules)
+
+Safety: Never point laser at eyes. Class IIIa laser - avoid direct eye exposure.

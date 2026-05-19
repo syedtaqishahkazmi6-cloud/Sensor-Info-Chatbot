@@ -1,0 +1,25 @@
+Rain Detection Sensor
+
+Description: A rain sensor module that detects water droplets on its surface. Uses conductive traces that create electrical contact when wet.
+
+Specifications:
+- Operating voltage: 3.3V to 5V
+- Output: Both analog and digital
+- Detection area: Typically 40x60mm
+- Sensitivity: Adjustable via potentiometer
+- Response time: < 100ms
+
+Applications:
+- Rain detection systems
+- Automatic windshield wipers
+- Weather monitoring
+- Plant watering systems
+- Roof leak detection
+
+Wiring:
+- VCC: 3.3V or 5V
+- GND: Ground
+- AOUT: Analog output (wetness level)
+- DOUT: Digital output (threshold triggered)
+
+Notes: Analog output varies with wetness. Digital output triggers when threshold is exceeded.

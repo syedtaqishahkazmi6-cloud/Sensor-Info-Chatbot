@@ -1,0 +1,24 @@
+Mini Limit Switch
+
+Description: A small mechanical limit switch that detects physical contact. Used as a position sensor or end-stop in mechanical systems.
+
+Specifications:
+- Operating voltage: 3.3V to 5V (for logic)
+- Contact rating: Up to 5A at 250VAC
+- Actuation force: ~50g
+- Travel: ~2mm
+- Output: Digital (normally open/closed)
+
+Applications:
+- End-stop detection
+- Position sensing
+- Safety interlocks
+- 3D printers
+- CNC machines
+
+Wiring:
+- VCC: 3.3V or 5V
+- GND: Ground
+- OUT: Digital output to microcontroller
+
+Notes: Can be wired as normally open (NO) or normally closed (NC). Mechanical contact provides reliable detection.

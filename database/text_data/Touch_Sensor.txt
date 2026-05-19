@@ -1,0 +1,24 @@
+Touch Sensor (Capacitive)
+
+Description: A capacitive touch sensor that detects human touch through a metal pad. Uses the TTP223 touch controller IC for reliable touch detection.
+
+Specifications:
+- Operating voltage: 2.0V to 5.5V
+- Output: Digital (HIGH/LOW)
+- Response time: < 100ms
+- Detection: Touch through thin materials
+- Low power: Yes
+
+Applications:
+- Touch switches
+- User interfaces
+- Control panels
+- Security systems
+- Interactive displays
+
+Wiring:
+- VCC: 3.3V or 5V
+- GND: Ground
+- OUT: Digital output to microcontroller
+
+Notes: Output goes HIGH when touched, LOW when released. Can detect touch through plastic, glass, or wood (up to 3mm thick).

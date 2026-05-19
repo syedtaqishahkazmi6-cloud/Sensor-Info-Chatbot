@@ -1,0 +1,27 @@
+Relay Module
+
+Description: An electromechanical relay that allows a microcontroller to switch high-voltage/high-current devices. Provides electrical isolation between control and load circuits.
+
+Specifications:
+- Operating voltage: 3.3V to 5V (control)
+- Switch rating: 10A at 250VAC / 10A at 30VDC
+- Contact type: SPDT (Single Pole Double Throw)
+- Trigger level: Active LOW or HIGH
+- Isolation: Optical (on some modules)
+
+Applications:
+- Controlling AC appliances
+- High-power DC switching
+- Light control
+- Motor control
+- Home automation
+
+Wiring:
+- VCC: 3.3V or 5V
+- GND: Ground
+- IN: Control pin (digital)
+- COM: Common terminal
+- NO: Normally Open
+- NC: Normally Closed
+
+Notes: COM connects to NO when relay is activated, to NC when deactivated. Use flyback diode for inductive loads.

@@ -1,0 +1,25 @@
+Big Sound Sensor (High Sensitivity Microphone)
+
+Description: A high-sensitivity sound detection module with an electret microphone and amplification circuit. Detects sound levels and outputs analog/digital signals.
+
+Specifications:
+- Operating voltage: 3.3V to 5V
+- Output: Both analog and digital
+- Sensitivity: Adjustable via potentiometer
+- Frequency response: 20Hz to 20kHz
+- Detection range: Up to several meters
+
+Applications:
+- Sound activated switches
+- Voice recognition systems
+- Noise monitoring
+- Security alarms
+- Audio level meters
+
+Wiring:
+- VCC: 3.3V or 5V
+- GND: Ground
+- AOUT: Analog output (sound level)
+- DOUT: Digital output (threshold triggered)
+
+Adjustment: Use the potentiometer to set the sound threshold for digital output.

@@ -1,0 +1,24 @@
+Linear Hall Effect Sensor
+
+Description: A linear Hall effect sensor that outputs an analog voltage proportional to the magnetic field strength. Provides continuous measurement rather than simple on/off detection.
+
+Specifications:
+- Operating voltage: 3.3V to 5V
+- Output: Analog voltage (0 to VCC)
+- Sensitivity: Typically 1.3mV/G
+- Magnetic range: ±100 to ±400 Gauss
+- Bandwidth: Up to 30kHz
+
+Applications:
+- Current sensing
+- Position measurement
+- Magnetic field mapping
+- Motor control
+- Scientific instruments
+
+Wiring:
+- VCC: 3.3V or 5V
+- GND: Ground
+- OUT: Analog output to ADC pin
+
+Notes: Output is VCC/2 with no magnetic field. Voltage increases/decreases with magnetic field polarity and strength.

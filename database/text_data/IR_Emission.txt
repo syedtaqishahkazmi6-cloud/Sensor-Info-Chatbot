@@ -1,0 +1,24 @@
+IR Emission (Transmitter) Module
+
+Description: An infrared LED transmitter module that emits IR light at 38kHz frequency. Used with IR receivers for remote control and communication applications.
+
+Specifications:
+- Operating voltage: 3.3V to 5V
+- Emission frequency: 38kHz (standard)
+- Wavelength: 940nm
+- Transmission range: Up to 10 meters
+- Modulation: Built-in oscillator
+
+Applications:
+- Remote controls
+- IR communication
+- Proximity sensing
+- Beam break detection
+- Data transmission
+
+Wiring:
+- VCC: 3.3V or 5V
+- GND: Ground
+- SIGNAL: Digital control pin
+
+Notes: Requires modulation at 38kHz for standard IR receivers. Can be controlled with PWM for various protocols (NEC, RC5, etc.).

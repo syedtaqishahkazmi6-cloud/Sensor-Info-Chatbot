@@ -1,0 +1,26 @@
+SMD RGB LED Module
+
+Description: A surface-mount device (SMD) RGB LED module for compact color displays. Provides full-color output in a small form factor.
+
+Specifications:
+- Operating voltage: 3.3V to 5V
+- LED type: SMD 5050 RGB
+- Control: PWM for each color
+- Current: ~20mA per color
+- Size: Compact SMD package
+
+Applications:
+- Compact indicators
+- PCB-mounted status lights
+- Small displays
+- Wearable electronics
+- Miniature lighting
+
+Wiring:
+- VCC: 3.3V or 5V
+- GND: Ground
+- R: Red control (PWM)
+- G: Green control (PWM)
+- B: Blue control (PWM)
+
+Notes: Same functionality as through-hole RGB but in smaller package. Ideal for space-constrained designs.

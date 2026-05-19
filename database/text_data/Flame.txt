@@ -1,0 +1,24 @@
+Flame Detection Sensor
+
+Description: An infrared flame sensor that detects the presence of fire by sensing infrared light emitted by flames. Used for fire detection and safety systems.
+
+Specifications:
+- Operating voltage: 3.3V to 5V
+- Detection range: Up to 100cm (depends on flame size)
+- Detection angle: ~60°
+- Output: Digital (HIGH/LOW)
+- Response time: < 20ms
+
+Applications:
+- Fire alarm systems
+- Industrial safety
+- Gas leak detection
+- Automatic fire suppression
+- Robot fire fighting
+
+Wiring:
+- VCC: 3.3V or 5V
+- GND: Ground
+- OUT: Digital output to microcontroller
+
+Notes: Detects infrared light in the 760nm to 1100nm range, typical of flame emissions.

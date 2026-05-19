@@ -1,0 +1,26 @@
+RGB Color Flash LED Module
+
+Description: A full-color RGB LED module capable of producing various colors by mixing red, green, and blue light. Can create flashing and color-changing effects.
+
+Specifications:
+- Operating voltage: 3.3V to 5V
+- LED type: 5050 RGB LED
+- Control: PWM for each color channel
+- Current: ~20mA per color
+- Colors: 16 million+ possible combinations
+
+Applications:
+- Status indicators
+- Decorative lighting
+- Mood lighting
+- Visual alerts
+- Color-coded notifications
+
+Wiring:
+- VCC: 3.3V or 5V
+- GND: Ground
+- R: Red control (PWM)
+- G: Green control (PWM)
+- B: Blue control (PWM)
+
+Color mixing: Vary PWM values on R, G, B pins to create different colors.

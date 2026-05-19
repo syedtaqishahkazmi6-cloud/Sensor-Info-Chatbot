@@ -1,0 +1,22 @@
+DS18B20 Temperature Sensor
+
+Description: The DS18B20 is a digital temperature sensor that provides 9-bit to 12-bit Celsius temperature measurements. It communicates over a 1-Wire bus, which requires only one data line (and ground) to communicate with a central microprocessor.
+
+Specifications:
+- Temperature range: -55°C to +125°C
+- Accuracy: ±0.5°C from -10°C to +85°C
+- Resolution: 9-bit (0.5°C), 10-bit (0.25°C), 11-bit (0.125°C), 12-bit (0.0625°C)
+- Operating voltage: 3.0V to 5.5V
+- Interface: 1-Wire digital interface
+
+Applications:
+- Temperature monitoring systems
+- HVAC systems
+- Industrial process control
+- Weather stations
+- Thermostatic controls
+
+Wiring:
+- VCC: 3.3V or 5V
+- GND: Ground
+- DATA: Digital data pin (requires 4.7K pull-up resistor)

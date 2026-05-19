@@ -1,0 +1,24 @@
+Infrared Obstacle Avoidance Sensor
+
+Description: An infrared obstacle detection sensor that emits IR light and detects reflections from nearby objects. Used for obstacle avoidance in robotics and automation.
+
+Specifications:
+- Operating voltage: 3.3V to 5V
+- Detection range: 2cm to 30cm (adjustable via potentiometer)
+- Output: Digital (HIGH/LOW)
+- Detection angle: < 15°
+- Response time: < 10ms
+
+Applications:
+- Robot obstacle avoidance
+- Line following robots
+- Automatic doors
+- Security systems
+- Industrial automation
+
+Wiring:
+- VCC: 3.3V or 5V
+- GND: Ground
+- OUT: Digital output to microcontroller
+
+Adjustment: Use the onboard potentiometer to adjust detection sensitivity and range.

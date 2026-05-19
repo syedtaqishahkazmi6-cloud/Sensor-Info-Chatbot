@@ -1,0 +1,25 @@
+Mini Two-Color LED Module
+
+Description: A compact two-color (typically red/green) LED that can display either color or a blend of both. Used for status indication.
+
+Specifications:
+- Operating voltage: 3.3V to 5V
+- LED type: 3mm bicolor LED
+- Colors: Red and Green (can mix to yellow/orange)
+- Control: 2 digital pins
+- Current: ~10mA per color
+
+Applications:
+- Status indicators
+- Direction indicators
+- Warning lights
+- User feedback
+- Debug indicators
+
+Wiring:
+- VCC: 3.3V or 5V
+- GND: Ground
+- R: Red control pin
+- G: Green control pin
+
+Notes: Both colors ON simultaneously creates yellow/orange. Can be PWM controlled for brightness.

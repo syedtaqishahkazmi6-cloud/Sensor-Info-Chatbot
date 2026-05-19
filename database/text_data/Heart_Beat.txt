@@ -1,0 +1,24 @@
+Heartbeat/Pulse Sensor Module
+
+Description: A photoplethysmography (PPG) sensor that measures heart rate by detecting blood volume changes through light absorption. Uses an LED and photodetector.
+
+Specifications:
+- Operating voltage: 3.3V to 5V
+- Output: Analog voltage
+- Heart rate range: 30 to 240 BPM
+- LED wavelength: Typically 660nm (red)
+- Current: ~4mA
+
+Applications:
+- Heart rate monitoring
+- Fitness trackers
+- Medical devices
+- Stress monitoring
+- Biometric authentication
+
+Wiring:
+- VCC: 3.3V or 5V
+- GND: Ground
+- OUT: Analog output to ADC pin
+
+Usage: Place finger on LED/sensor area. Signal varies with blood pulse. Requires signal processing for accurate BPM calculation.

@@ -1,0 +1,26 @@
+RGB LED Module
+
+Description: A full-color RGB LED module capable of producing millions of colors by mixing red, green, and blue light intensities.
+
+Specifications:
+- Operating voltage: 3.3V to 5V
+- LED type: 5mm or 5050 RGB
+- Control: PWM for each color
+- Current: ~20mA per color
+- Colors: 16.7 million possible combinations
+
+Applications:
+- Status indicators
+- Mood lighting
+- Color-coded notifications
+- Decorative lighting
+- Visual effects
+
+Wiring:
+- VCC: 3.3V or 5V
+- GND: Ground
+- R: Red control (PWM)
+- G: Green control (PWM)
+- B: Blue control (PWM)
+
+Notes: Use PWM to control brightness of each color. Mix values to create any color.

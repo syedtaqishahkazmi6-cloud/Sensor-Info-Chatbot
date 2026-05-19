@@ -1,0 +1,24 @@
+IR Receiver Module (VS1838B)
+
+Description: An infrared receiver module tuned to 38kHz for receiving IR signals from remote controls and IR transmitters. Demodulates and outputs digital data.
+
+Specifications:
+- Operating voltage: 2.7V to 5.5V
+- Reception frequency: 38kHz
+- Reception range: Up to 18 meters
+- Output: Digital (demodulated signal)
+- Carrier detection: Automatic
+
+Applications:
+- Remote control decoding
+- IR communication
+- Home automation
+- TV/AC remote control
+- Security systems
+
+Wiring:
+- VCC: 3.3V or 5V
+- GND: Ground
+- OUT: Digital output to microcontroller
+
+Notes: Compatible with standard IR protocols (NEC, RC5, RC6). Requires library for decoding specific protocols.

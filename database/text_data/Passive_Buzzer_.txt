@@ -1,0 +1,24 @@
+Passive Buzzer Module
+
+Description: A passive buzzer that requires an AC signal or PWM to produce sound. Unlike active buzzers, it can generate different frequencies and tones.
+
+Specifications:
+- Operating voltage: 3.3V to 5V
+- Frequency range: 1kHz to 10kHz
+- Sound level: ~80dB at 10cm
+- Current: ~15mA
+- Control: PWM or tone signal
+
+Applications:
+- Musical tones
+- Variable frequency alerts
+- Sound effects
+- Instrument simulation
+- Audio feedback
+
+Wiring:
+- VCC: 3.3V or 5V
+- GND: Ground
+- I/O: PWM or tone control pin
+
+Notes: Requires PWM or tone() function to generate sound. Can play melodies by varying frequency.

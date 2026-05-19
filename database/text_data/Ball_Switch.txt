@@ -1,0 +1,24 @@
+Ball Tilt Switch Sensor
+
+Description: A mercury-free ball tilt switch that detects tilt or orientation changes. Contains a conductive ball that makes contact when tilted beyond a certain angle.
+
+Specifications:
+- Operating voltage: 3.3V to 5V
+- Output: Digital (HIGH/LOW)
+- Tilt angle: Typically 30° to 45° from horizontal
+- Contact resistance: < 100Ω
+- Max current: 100mA
+
+Applications:
+- Orientation detection
+- Anti-theft alarms
+- Game controllers
+- Safety devices
+- Robotics (balance detection)
+
+Wiring:
+- VCC: 3.3V or 5V
+- GND: Ground
+- OUT: Digital output to microcontroller
+
+Notes: The switch closes (conducts) when tilted in the direction of the ball movement.

@@ -1,0 +1,26 @@
+Joystick Module
+
+Description: A two-axis analog joystick with an integrated push button. Provides analog output for X and Y positions plus digital button press detection.
+
+Specifications:
+- Operating voltage: 3.3V to 5V
+- Outputs: 2 analog (X, Y) + 1 digital (button)
+- Resistance: 10kΩ potentiometers
+- Travel: Full 360° movement
+- Button: Momentary push switch
+
+Applications:
+- Game controllers
+- Robot control
+- Camera pan/tilt
+- User interface input
+- Manual override controls
+
+Wiring:
+- VCC: 3.3V or 5V
+- GND: Ground
+- VRX: X-axis analog output
+- VRY: Y-axis analog output
+- SW: Button digital output
+
+Notes: Center position outputs ~VCC/2. Values vary with joystick position.

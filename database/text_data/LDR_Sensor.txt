@@ -1,0 +1,24 @@
+LDR (Light Dependent Resistor) Sensor
+
+Description: A photoresistor that changes resistance based on light intensity. Resistance decreases as light intensity increases. Used for light detection and measurement.
+
+Specifications:
+- Operating voltage: 3.3V to 5V
+- Resistance range: 1MΩ (dark) to 10KΩ (bright)
+- Response time: ~20ms
+- Spectral response: 520nm to 850nm
+- Max power: 100mW
+
+Applications:
+- Light sensing
+- Automatic lighting control
+- Day/night detection
+- Camera exposure control
+- Solar tracking systems
+
+Wiring:
+- VCC: 3.3V or 5V
+- GND: Ground
+- OUT: Analog output (voltage divider with LDR)
+
+Notes: Typically used in a voltage divider circuit. Output voltage varies inversely with light intensity.

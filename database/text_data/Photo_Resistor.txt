@@ -1,0 +1,24 @@
+Photoresistor (LDR) Sensor Module
+
+Description: A light-dependent resistor module that outputs analog voltage based on ambient light levels. Resistance decreases as light intensity increases.
+
+Specifications:
+- Operating voltage: 3.3V to 5V
+- Resistance range: 1MΩ (dark) to 10KΩ (bright)
+- Output: Analog voltage
+- Response time: ~20ms
+- Spectral response: 520nm to 850nm
+
+Applications:
+- Automatic lighting control
+- Day/night detection
+- Camera exposure
+- Solar tracking
+- Light meters
+
+Wiring:
+- VCC: 3.3V or 5V
+- GND: Ground
+- OUT: Analog output to ADC pin
+
+Notes: Module includes voltage divider circuit. Output voltage decreases as light increases.

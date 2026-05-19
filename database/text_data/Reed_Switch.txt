@@ -1,0 +1,24 @@
+Reed Switch Sensor
+
+Description: A magnetic reed switch that closes when a magnet is brought near. Consists of two ferromagnetic contacts in a sealed glass tube.
+
+Specifications:
+- Operating voltage: 3.3V to 5V (for logic)
+- Contact rating: Up to 500mA at 200VDC
+- Detection range: 1cm to 3cm
+- Response time: < 2ms
+- Form factor: Glass tube
+
+Applications:
+- Door/window sensors
+- Proximity detection
+- Security systems
+- Flow meters
+- Position sensing
+
+Wiring:
+- VCC: 3.3V or 5V
+- GND: Ground
+- OUT: Digital output to microcontroller
+
+Notes: Normally open (NO) type closes when magnet approaches. Can be used as normally closed (NC) with different wiring.

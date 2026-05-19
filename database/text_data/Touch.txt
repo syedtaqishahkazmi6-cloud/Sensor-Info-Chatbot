@@ -1,0 +1,25 @@
+Touch Button Sensor
+
+Description: A simple touch-sensitive button that detects finger contact. Provides digital output when the touch pad is pressed.
+
+Specifications:
+- Operating voltage: 3.3V to 5V
+- Output: Digital (HIGH/LOW)
+- Response time: < 50ms
+- Sensitivity: Adjustable
+- LED indicator: Yes
+
+Applications:
+- Touch switches
+- User input
+- Control panels
+- Game buttons
+- Security systems
+
+Wiring:
+- VCC: 3.3V or 5V
+- GND: Ground
+- OUT: Digital output to microcontroller
+- SIG: Alternative signal pin (on some modules)
+
+Notes: Similar to capacitive touch but simpler design. LED lights up when touched.

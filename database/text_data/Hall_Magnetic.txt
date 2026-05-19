@@ -1,0 +1,24 @@
+Hall Magnetic Sensor (Digital)
+
+Description: A digital Hall effect sensor that detects magnetic fields and switches output state when a magnet is nearby. Used for proximity and position sensing.
+
+Specifications:
+- Operating voltage: 3.3V to 5V
+- Output: Digital (HIGH/LOW)
+- Detection range: 1cm to 3cm
+- Response time: < 10μs
+- Polarity sensitive: Detects specific magnetic pole
+
+Applications:
+- Speed measurement (RPM)
+- Position sensing
+- Proximity switches
+- Flow meters
+- Security systems
+
+Wiring:
+- VCC: 3.3V or 5V
+- GND: Ground
+- OUT: Digital output to microcontroller
+
+Notes: Output goes LOW when magnet is detected (varies by model). LED indicator shows detection state.

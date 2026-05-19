@@ -1,0 +1,23 @@
+Analog Hall Effect Sensor
+
+Description: An analog Hall effect sensor that detects magnetic fields and outputs a voltage proportional to the magnetic field strength. It can detect both north and south magnetic poles.
+
+Specifications:
+- Operating voltage: 3.3V to 5V
+- Output: Analog voltage (0 to VCC)
+- Detection range: Up to several centimeters depending on magnet strength
+- Sensitivity: Detects changes in magnetic field intensity
+
+Applications:
+- Position sensing
+- Speed detection (rotary applications)
+- Proximity detection
+- Current sensing
+- Motor control systems
+
+Wiring:
+- VCC: 3.3V or 5V
+- GND: Ground
+- OUT: Analog output to microcontroller ADC pin
+
+Notes: The output voltage increases with magnetic field strength from one pole and decreases with the opposite pole.

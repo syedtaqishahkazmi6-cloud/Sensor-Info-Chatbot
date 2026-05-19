@@ -1,0 +1,24 @@
+Soil Moisture Sensor
+
+Description: A capacitive soil moisture sensor that measures water content in soil. More reliable and corrosion-resistant than resistive soil sensors.
+
+Specifications:
+- Operating voltage: 3.3V to 5V
+- Output: Analog voltage
+- Measurement range: 0-100% (dry to wet)
+- Response time: < 1 second
+- Corrosion resistant: Yes
+
+Applications:
+- Plant watering systems
+- Agriculture monitoring
+- Automatic irrigation
+- Greenhouse control
+- Soil research
+
+Wiring:
+- VCC: 3.3V or 5V
+- GND: Ground
+- OUT: Analog output to ADC pin
+
+Notes: Higher voltage = drier soil, lower voltage = wetter soil. Calibrate for specific soil types. Capacitive design prevents corrosion.

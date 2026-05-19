@@ -1,0 +1,24 @@
+Active Buzzer Module
+
+Description: An active buzzer that generates sound when a DC voltage is applied. Contains an internal oscillator circuit, so only a simple HIGH signal is needed to produce sound.
+
+Specifications:
+- Operating voltage: 3.3V to 5V
+- Sound frequency: ~2kHz (fixed)
+- Sound level: ~85dB at 10cm
+- Current draw: ~20mA
+- Control: Digital (HIGH/LOW)
+
+Applications:
+- Alarm systems
+- Notification alerts
+- Game sound effects
+- Warning indicators
+- User interface feedback
+
+Wiring:
+- VCC: 3.3V or 5V
+- GND: Ground
+- I/O: Digital control pin (HIGH = ON, LOW = OFF)
+
+Notes: Unlike passive buzzers, active buzzers have a fixed frequency and cannot be modulated for different tones.
