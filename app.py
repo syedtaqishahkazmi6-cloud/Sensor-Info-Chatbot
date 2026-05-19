@@ -378,10 +378,31 @@ def extract_field(content, label):
 
 
 def find_sensor_image(file_key):
+    # Try exact key match first
     for ext in [".jpg", ".png", ".jpeg"]:
         path = os.path.join(IMAGE_DIR, f"{file_key}{ext}")
         if os.path.exists(path):
             return path
+
+    # Try with spaces instead of underscores (e.g. "Ball Switch.png")
+    spaced_key = file_key.replace("_", " ")
+    for ext in [".jpg", ".png", ".jpeg"]:
+        path = os.path.join(IMAGE_DIR, f"{spaced_key}{ext}")
+        if os.path.exists(path):
+            return path
+
+    # Fuzzy fallback: scan directory for closest filename match
+    if os.path.exists(IMAGE_DIR):
+        key_lower = file_key.lower().replace("_", " ")
+        for fname in os.listdir(IMAGE_DIR):
+            name_lower = os.path.splitext(fname)[0].lower()
+            if name_lower == key_lower:
+                return os.path.join(IMAGE_DIR, fname)
+        # partial match
+        for fname in os.listdir(IMAGE_DIR):
+            name_lower = os.path.splitext(fname)[0].lower()
+            if key_lower in name_lower or name_lower in key_lower:
+                return os.path.join(IMAGE_DIR, fname)
     return None
 
 
