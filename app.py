@@ -353,6 +353,10 @@ if "delete_confirm" not in st.session_state:
 if "clear_history_confirm" not in st.session_state:
     st.session_state.clear_history_confirm = False
 
+# Always define color vars at top-level scope (used by apply_hci_styles on every rerun)
+custom_text_color   = st.session_state.custom_text_color
+custom_accent_color = st.session_state.custom_accent_color
+
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 TEXT_DIR = os.path.join(BASE_DIR, "database", "text_data")
 IMAGE_DIR = os.path.join(BASE_DIR, "database", "image_data")
@@ -491,6 +495,8 @@ with st.sidebar:
     st.subheader("🎨 Color Tweaks")
     custom_text_color   = st.color_picker("Text Color",         st.session_state.custom_text_color, key="custom_text_color")
     custom_accent_color = st.color_picker("Accent / Glow Color", st.session_state.custom_accent_color, key="custom_accent_color")
+    st.session_state.custom_text_color   = custom_text_color
+    st.session_state.custom_accent_color = custom_accent_color
 
     st.divider()
 
