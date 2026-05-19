@@ -713,7 +713,7 @@ with control_col1:
     if not st.session_state.clear_history_confirm:
         if st.button("🧹 Clear chat history", use_container_width=True):
             st.session_state.clear_history_confirm = True
-            st.experimental_rerun()
+            st.rerun()
     else:
         st.warning("⚠️ This will erase all chat history.")
         confirm_col, cancel_col = st.columns([1, 1])
@@ -723,17 +723,17 @@ with control_col1:
                 st.session_state.pending_sensor = None
                 st.session_state.clear_history_confirm = False
                 st.toast("Chat history cleared.", icon="🧹")
-                st.experimental_rerun()
+                st.rerun()
         with cancel_col:
             if st.button("❌ Cancel", use_container_width=True):
                 st.session_state.clear_history_confirm = False
-                st.experimental_rerun()
+                st.rerun()
 with control_col2:
     if st.button("🗑️ Delete last message", use_container_width=True):
         if st.session_state.messages:
             st.session_state.messages.pop()
             st.toast("Last message removed.", icon="🗑️")
-            st.experimental_rerun()
+            st.rerun()
         else:
             st.toast("No messages to remove.", icon="⚠️")
 
