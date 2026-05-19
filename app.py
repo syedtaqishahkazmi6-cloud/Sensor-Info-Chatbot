@@ -495,8 +495,6 @@ with st.sidebar:
     st.subheader("🎨 Color Tweaks")
     custom_text_color   = st.color_picker("Text Color",         st.session_state.custom_text_color, key="custom_text_color")
     custom_accent_color = st.color_picker("Accent / Glow Color", st.session_state.custom_accent_color, key="custom_accent_color")
-    st.session_state.custom_text_color   = custom_text_color
-    st.session_state.custom_accent_color = custom_accent_color
 
     st.divider()
 
